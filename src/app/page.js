@@ -156,20 +156,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- İLETİŞİM --- */}
+      {/* --- İLETİŞİM (DÜRÜST VE SAMİMİ VERSİYON) --- */}
       <section className="py-24 px-6 bg-emerald-600 text-center relative overflow-hidden">
         <div className="relative z-10">
-          <h2 className="text-3xl font-black mb-4 text-white tracking-tight">Ücretsiz Danışmanlık Alın</h2>
-          <p className="text-emerald-100 mb-10 max-w-md mx-auto font-medium">Sistemi kliniğinize nasıl entegre edeceğinizi uzmanlarımızla görüşün.</p>
+          <h2 className="text-3xl font-black mb-4 text-white tracking-tight">Desteğe mi İhtiyacınız Var?</h2>
+          <p className="text-emerald-100 mb-10 max-w-md mx-auto font-medium leading-relaxed">
+            DiyetPaneli'ni kliniğinizde kullanmaya başlarken aklınıza takılan soruları bize iletebilirsiniz. 
+            Bizzat ilgileniyor ve en kısa sürede dönüş yapıyoruz.
+          </p>
           <div className="max-w-md mx-auto flex flex-col md:flex-row gap-3">
-            <input type="email" placeholder="E-posta adresiniz" className="flex-1 px-6 py-4 rounded-2xl focus:outline-none text-sm font-bold shadow-inner" />
-            <button className="px-8 py-4 bg-gray-900 text-white rounded-2xl font-bold hover:bg-black transition-all shadow-2xl">
-              Gönder
+            <input 
+              type="email" 
+              placeholder="E-posta adresiniz" 
+              className="flex-1 px-6 py-4 rounded-2xl focus:outline-none text-sm font-bold shadow-inner border-none" 
+            />
+            <button className="px-8 py-4 bg-gray-900 text-white rounded-2xl font-bold hover:bg-black transition-all shadow-2xl active:scale-95">
+              Bize Yazın
             </button>
           </div>
         </div>
-        {/* Dekoratif Arkaplan Formu */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500 rounded-full blur-3xl opacity-50 -mr-32 -mt-32"></div>
+        {/* Dekoratif Arkaplan */}
+        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500 rounded-full blur-3xl opacity-30 -mr-32 -mt-32"></div>
       </section>
 
       {/* --- FOOTER --- */}
